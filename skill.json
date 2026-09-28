@@ -1,0 +1,26 @@
+{
+  "name": "genpark-statistical-zscore-iqr-anomaly-detector-skill",
+  "version": "1.0.0",
+  "description": "Multi-strategy anomaly detector computing standard Z-score, modified median absolute deviation (MAD), and Tukey IQR fences on numerical streams.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "anomaly-detection",
+    "z-score",
+    "iqr-fences",
+    "outlier-detection",
+    "statistics",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "detect_anomalies",
+      "description": "Detect statistical anomalies using Z-score, modified Z-score, and IQR."
+    },
+    {
+      "name": "run_benchmark_anomaly_detector",
+      "description": "Run anomaly detector benchmark suite."
+    }
+  ]
+}
