@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-statistical-zscore-iqr-anomaly-detector-skill"
+version = "1.0.0"
+description = "Multi-strategy anomaly detector computing standard Z-score, modified median absolute deviation (MAD), and Tukey IQR fences on numerical streams."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "GenPark AI", email = "engineering@genpark.ai"}]
+keywords = ["ai-agent", "mcp", "data-science", "statistics", "zero-dependency"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://genpark.ai/mcp"
+Repository = "https://github.com/alphaparkinc/genpark-statistical-zscore-iqr-anomaly-detector-skill"
